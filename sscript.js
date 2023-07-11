@@ -7,9 +7,9 @@ function incrementer() {
     } else {
         sessionStorage.setItem('chiffre', '1');
     }
-    document.getElementById('chiffre').innerText =  'Voici un chiffre ' + sessionStorage.getItem('chiffre');
+    document.getElementById('chiffre').innerHTML =  'Voici un chiffre ' + sessionStorage.getItem('chiffre');
 }
-document.getElementById('chiffre').innerText =  'Voici un chiffre ' + sessionStorage.getItem('chiffre');
+
 
 
 
